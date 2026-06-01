@@ -696,11 +696,8 @@
 <script>
 // ── COUNTDOWN ──
 function getWebinarDate() {
-  const now = new Date();
-  const target = new Date(now);
-  target.setDate(now.getDate() + 7);
-  target.setHours(20, 0, 0, 0);
-  return target;
+  return new Date('2026-06-14T20:00:00');
+}
 }
 
 function updateCountdown() {
